@@ -44,5 +44,14 @@ planned folder structure encoding).
 --------------------------------------------------------------------------
 Utilities and DBMS
 
-Program assumes that MySQL Enterprise is installed and its version
-must match MySQL Server version.
+Program assumes that MySQL Enterprise Backu is installed and its version
+matches MySQL Server version.
+
+-------------------------------------------------------------------------
+Future Development
+
+Golden copy is created on local machine but this feature can be expanded
+to creation on remote severs ussing SSH protocol. Useful examples can be
+found in MySQL Enterprise Backup documentation.
+Some of the methods in GoldenAPI class need to be written or modified.
+Program operates only on file level, without block level functionality.
