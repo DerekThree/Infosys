@@ -31,6 +31,7 @@ Other featuers are not working yet.
 
 --------------------------------------------------------------------------
 Controller
+
 Saved as an IntelliJ project. Creates a Spring Boot server which maps
 GET and POST requests from the UI websites. Most of the code is in
 GoldenAPI class and some of it is not finished yet.
@@ -39,3 +40,9 @@ for msqldump expansion. Msqldump will be used by share() and save() methods
 when creating a copy of a database under a different name (This feature will
 be used to manage ownership and version encoding, instead of originally
 planned folder structure encoding).
+
+--------------------------------------------------------------------------
+Utilities and DBMS
+
+Program assumes that MySQL Enterprise is installed and its version
+must match MySQL Server version.
